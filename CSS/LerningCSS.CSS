@@ -1,0 +1,328 @@
+html {
+    background-color: rgba(109, 188, 75, 0.881);
+}
+
+
+.highlight {
+  background-color: rgb(145, 195, 198);
+}
+
+.animalss{
+  background-color: blue;
+  float: left;
+}
+
+/* Custom Fonts */
+
+@font-face {
+    font-family: Nobile-Italic ;
+    src: url('Fontss/Nobile-Italic.ttf') format(ttf);
+   font-size:medium;
+    font-style:normal;
+}
+
+
+/* End Custom Fonts */
+
+body {
+    font-family:'Nobile-Italic',Arial, sans-serif ;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+  
+}
+
+header {
+  Padding-top: 20px;
+  color: rgb(111, 185, 111);
+  background-color: #bad389;
+}
+
+img {
+    max-width: 100%;
+}
+
+header p {
+    color: #7d8d5b;
+}
+
+
+/* Banner Overlay */
+.image-banner {
+    position: relative;
+    left: 0px;
+    width: 30%;
+  }
+  
+  .image-banner img {
+    display: block;
+  }
+  
+  .banner-description {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    color: #FFF;
+    background-color: rgba(60, 192, 78, 0.376);
+    padding:0%;
+    size: 50px 50px;
+  }
+h1 {
+    color:rgb(81, 123, 177);
+    font-size: 169%;
+    font-weight: lighter;
+}
+
+
+p {
+    color:rgb(0, 0, 0);
+}
+
+/* Background Practice */
+
+
+.container { 
+background-color: rgb(105, 163, 100);
+max-width: 940px;
+margin: 0 auto;
+}
+
+
+
+/* site Navigation */
+.site-nav ul {
+    margin: 0;
+    padding: 0; 
+}
+
+.site-nav li {
+  list-style: none;
+  float: left;
+  padding: 10px 20px;
+  border: 3px solid rgb(60, 163, 60) ;
+}
+
+.site-nav a {
+  display: block;
+  color: rgb(247, 247, 247);
+  text-decoration: none;
+  border: 3px solid rgb(68, 175, 68);
+  border-bottom: none;
+}
+
+
+.site-nav a:hover {
+  background-color: rgb(119, 198, 119);
+}
+
+/* End Site Navigation */
+
+
+/* Site Navigation */
+.site-nav {
+    margin-top: 20px;
+  }
+  
+  .site-nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .site-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+  }
+  
+  .site-nav a {
+    display: block;
+    color: #617140;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 3px solid #000000;
+    border-bottom: none;
+  }
+  
+  .site-nav a:hover {
+    background-color: #e5e9dc;
+  }
+  
+  /* End Site Navigation */
+
+ /* Table Styles */
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 70px;
+    float:left;
+}
+
+table th {
+    text-align: left;
+    background-color: rgb(106, 200, 106);
+    color: #FFF;
+    text-shadow: 1px 1px 0 rgb(106, 200, 106);
+}
+
+table th,
+table td {
+    border: 1px solid #adc282ca;
+    padding: 10px;
+}
+
+table tbody tr:nth-child(odd) td {
+    background-color: #6f8a3d;
+}
+
+.sidebar {
+    width: 34%;
+    float: left;
+    background-color: rgb(97, 193, 97);
+    padding: 20px 40px;
+    box-sizing: border-box;
+    font-size: 114%;
+    background-image: linear-gradient(to bottom , rgb(118, 197, 144),#fff);
+}
+/* MEDIA SCREEN SIZES */
+@media screen and (min-width: 1300px) {
+  body {
+    font-size: 17px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .site-nav li {
+    width: 33.332%;
+    margin-right: 0;
+  }
+}
+
+/* MEDIA SCREEN SIZES END*/
+
+.content-area {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: #55af48;
+}
+
+.main-area {
+    width: 66%;
+    float:left;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+/* form styles*/
+form {
+    background-color: #ececec;
+    padding: 30px 40px;
+  }
+  
+  .hidden-label {
+    position: absolute;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    visibility: hidden;
+  }
+  
+  input,
+  select {
+    font-family: Tahoma, sans-serif;
+    font-size: 100%;
+  }
+  
+  select { 
+    -webkit-border-radius: 0;
+    border-radius: 0;
+  }
+  
+  input[type="email"],
+  input[type="password"],
+  input[type="text"],
+  input[type="number"],
+  input[type="tel"],
+  select {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 0 10px;
+    height: 40px;
+    margin-bottom: 15px;
+    border: 1px solid #cdcdcd;
+    outline: none;
+  }
+  
+  input[type="email"]:focus,
+  input[type="password"]:focus,
+  input[type="text"]:focus,
+  input[type="number"]:focus,
+  input[type="tel"]:focus {
+    border: 1px solid #93bc87;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.13);
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    background-color: #869960;
+    color: #fff;
+    padding: 10px 0;
+    border: 1px solid #798a56;
+    border-radius: 3px;
+    outline: none;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"]:hover,
+  input[type="submit"]:focus {
+    border: 1px solid #535e3b;
+    background-color: #798a56;
+  }
+/* end Form styles*/
+.sidebar {
+    float:left;
+     background-color: rgb(110, 196, 167);
+     padding-left: 40px;
+     padding-right: 40px;
+     padding-bottom: 20px;
+     padding-top: 20px;
+     box-sizing: border-box;
+} 
+
+footer {
+    text-align: center;
+    font-size: x-small;
+    color: rgb(153, 153, 243);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.fix {
+   clear: both;
+}
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1;
+}
+

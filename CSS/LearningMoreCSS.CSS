@@ -1,0 +1,32 @@
+h1 {
+    color:orange;
+    text-align:center;
+    font-size: 169%;
+    font-weight: lighter;
+}
+
+header p {
+    color:rgba(45, 134, 134, 0.734);
+}
+
+p {
+    color:rgba(13, 134, 94, 0.925);
+}
+
+header p span {
+    color: rgba(184, 69, 184, 0.876);
+}
+
+.highlight  {
+    background-color: yellow;
+}
+
+
+footer .highlight {
+    background-color: pink ;
+}
+
+
+.cielo {
+      color:red;
+}

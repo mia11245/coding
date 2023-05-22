@@ -1,0 +1,28 @@
+<Doctype html>
+<html>
+    <head>
+        <title>boxes</title>
+        <style type="boxes.CSS/CSS;">
+      </style>
+    </head>
+   <body>
+    <div id="page">
+       <div id="logo">
+         <img src="images/logo.gif" alt="The Analog speecialists">
+       </div> 
+       <ul id="navigation">
+        <li><a href="{}" class="on">home</a></li>
+        <li><a href="{}">For sale</a></li>
+        <li><a href="{}">replaires</a></li>
+        <li><a href="{}">About</a></li>
+        <li><a href="{}">contac†</a></li>
+       </ul>
+       <p>
+        <img src="imgages/keys.jpg" alt="fender Rhodes,hohner Clavinet, and wurlitzer EP200" />
+       </p>
+       <p>
+        We specialize in the sales and repair keybords and many other things that require fixing with electrical stuff and non electrical sometimes we may not fix everything we can but we try to do what we can our best.
+       </p>
+    </div>
+  </body>  
+</html>  
