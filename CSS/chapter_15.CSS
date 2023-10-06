@@ -1,0 +1,92 @@
+body {
+ color: #ffffff;
+ background: #413f3b url(images/flower.jpg);
+ font-family: 'Times New Roman', Times, serif;
+ font-size: 90%;
+ margin: 0px;
+ text-align: center;
+}
+a{
+    color: #413f3b;
+    text-decoration: none;
+}
+a:hover{
+    color: #ffffff;
+}
+.header{
+    background-image: url(images.png);
+    padding: 0px 0px 0px 0px;
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 50;
+}
+.nav {
+    float: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 45px 0px 0px 0px;
+    text-align: right;
+}
+.wrapper {
+    width: 960px;
+    margin: 0px auto;
+    background-image: url(color-tile.png);
+    background-repeat: no-repeat;
+    background-position: 122px 242px;
+    text-align: left;
+}
+.logo {
+    margin-bottom: 20px;
+}
+h1, h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+h1 {
+    font-size: 240%;
+    margin-top: 140px;
+}
+.date {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 75%;
+    color: #413f3b;
+}
+.intro {
+    clear: left;
+    font-size: 90%;
+    line-height: 1.4em;
+}
+.main-story {
+    background-image: url(color-tile.png);
+    background-repeat: no-repeat;
+    background-position: 122px 142px;
+    height: 570px;
+}
+.more-articles{
+    border-top: 1px solid #ffffff;
+    padding: 10px;
+    font-size: 80%;
+}
+.more-articles p {
+    border-bottom: 1px solid #ffffff;
+    padding: 5px 0px 15px 0px ;
+    font-size: 80%;
+}
+.more-articles p :last-child {
+    border-bottom: none;
+}
+.footer{
+    clear: both;
+    background:rgba(0, 0, 0, 0.2);
+    padding: 5px 10px;
+}
+.footer p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 75%;
+    text-align: right;
+}
+.footer a{
+    color: #807c72;
+}
